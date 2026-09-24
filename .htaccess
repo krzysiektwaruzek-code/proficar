@@ -3,6 +3,10 @@
 ErrorDocument 404 /404.html
 Options -Indexes
 
+# --- Blokada plików repozytorium (Hostinger Git klonuje całe repo do public_html) ---
+RedirectMatch 404 /\.git
+RedirectMatch 404 ^/(README\.md|docs/.*|\.gitignore)$
+
 # --- HTTPS (odkomentuj po podpięciu domeny i certyfikatu SSL) ---
 # RewriteEngine On
 # RewriteCond %{HTTPS} off

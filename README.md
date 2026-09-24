@@ -39,10 +39,24 @@ npx serve . -l 4173        # potem http://localhost:4173
 - **Formularz** – bez backendu przygotowuje SMS na numer warsztatu (nic nie wysyła przez internet).
   Po dodaniu skryptu wysyłki (np. `api/contact.php`) wpisz jego adres w atrybucie `data-endpoint` formularza.
 
-## Wdrożenie (Hostinger)
+## Wdrożenie (Hostinger – Git)
 
-Na tym etapie strona nie jest publikowana. Po akceptacji: podłączenie repozytorium w Hostinger → Git
-(automatyczne wdrożenie do `public_html`), domena i SSL, a potem odkomentowanie przekierowania HTTPS w `.htaccess`.
+Strona wdraża się automatycznie z gałęzi `main`.
+
+1. hPanel → Strony → Zarządzaj → **Zaawansowane → GIT**.
+2. Repozytorium: `https://github.com/krzysiektwaruzek-code/proficar.git`, gałąź: `main`,
+   katalog: puste pole (czyli `public_html`). Katalog `public_html` musi być wcześniej pusty
+   (usuń `default.php` w Menedżerze plików).
+3. **Utwórz**, potem **Wdróż**.
+4. **Auto Deployment** → skopiuj adres webhooka → GitHub: Settings → Webhooks → Add webhook
+   (Payload URL = skopiowany adres, Content type `application/json`, zdarzenie: push).
+
+Po podpięciu właściwej domeny:
+- zamień `https://TWOJA-DOMENA.pl` w `index.html`, `sitemap.xml`, `robots.txt`,
+- w `index.html` zmień `noindex, follow` na `index, follow, max-image-preview:large`,
+- włącz SSL w hPanel i odkomentuj przekierowanie HTTPS w `.htaccess`.
+
+`.htaccess` blokuje dostęp do `.git`, `README.md` i `docs/` (Hostinger klonuje całe repo do `public_html`).
 
 ## Licencje
 
