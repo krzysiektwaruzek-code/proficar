@@ -34,14 +34,15 @@ prowadzi do tej lokalizacji.
 | Elektryka samochodowa | tak | nicelocal.pl (nazwa wizytówki) + opis profilu Fixly |
 | Diagnoza zawieszenia / podwozia | tak | opis profilu Fixly (zawieszenie) + opinia klienta na Fixly (diagnoza podwozia) |
 | Profile z opiniami | Google Maps, Fixly (`fixly.pl/profil/j2obq30j`), DobryMechanik.pl | wyniki wyszukiwania |
+| NIP | 584-268-35-22 (suma kontrolna poprawna) | owg.pl (adres strony z danymi z CEIDG), podobne-firmy.pl, aleo.com – dodane w 2. rundzie weryfikacji; numer 5841502725 pojawił się tylko raz w streszczeniu wyszukiwarki i został odrzucony |
+| REGON | 389901641 (suma kontrolna poprawna) | owg.pl, aleo.com, podobne-firmy.pl |
+| KRS | brak – jednoosobowa działalność gospodarcza (CEIDG), nie podlega wpisowi do KRS | charakter wpisu w CEIDG |
 | PKD główne | 45.20.Z Konserwacja i naprawa pojazdów samochodowych | aleo.com |
 
 ## 2. Dane NIEPEWNE lub SPRZECZNE (NIE użyte na stronie)
 
 | Informacja | Dlaczego pominięta |
 |---|---|
-| **NIP** | Sprzeczne dane: 5842683522 (adres URL owg.pl) oraz 5841502725 (inny wynik wyszukiwania). Pole przygotowane w `data/company.json` – do uzupełnienia po sprawdzeniu w CEIDG. |
-| REGON 389901641 | Pojawia się w dwóch źródłach, ale raz podany błędnie jako NIP – pominięty razem z NIP. |
 | Adres rejestrowy ul. Wita Stwosza 21, 80-312 Gdańsk | To adres wpisu w CEIDG, a nie adres warsztatu. Na stronie nie jest potrzebny. |
 | Liczba opinii i średnia ocena | Źródła podają różne liczby (24, 48, 57 opinii; średnia 4,64–5,0; ocena 9,95/10) z różnych okresów. Nie da się ich dziś zweryfikować, więc strona odsyła do opinii u źródła. |
 | Szczegółowy zakres usług klimatyzacji (odgrzybianie, napełnianie czynnikiem, wymiana sprężarki, kontrola szczelności) | Jedyne źródło to ranking 24gdansk.pl, który wygląda na tekst generowany automatycznie. Niepotwierdzone. |
