@@ -23,7 +23,7 @@ prowadzi do tej lokalizacji.
 | Nazwa marki | PROFICAR | wszystkie źródła |
 | Firma (CEIDG) | Sebastian Gąsiewski PROFICAR | aleo.com, owg.pl, podobne-firmy.pl, fixly.pl |
 | Adres warsztatu | ul. Jana Kochanowskiego 130, 80-405 Gdańsk | dobrymechanik.pl, nicelocal.pl, zlotafirma.pl, wulkanizacjasopot.com.pl, rankingi |
-| Telefon | +48 515 460 727 | dobrymechanik.pl, zlotafirma.pl, wulkanizacjasopot.com.pl, 24gdansk.pl |
+| Telefon | **+48 571 915 703** – numer kontaktowy podany przez właściciela/zleceniodawcę (24.09.2026) | informacja od klienta. Katalogi (dobrymechanik.pl, zlotafirma.pl, wulkanizacjasopot.com.pl, 24gdansk.pl) podają nieaktualny numer +48 515 460 727 – nie jest używany na stronie; warto go poprawić w tych katalogach i w wizytówce Google |
 | Godziny | Pn–Pt 9:00–18:00, Sob 9:00–12:00, Nd nieczynne | dobrymechanik.pl, nicelocal.pl, zlotafirma.pl, wulkanizacjasopot.com.pl |
 | Początek działalności | 10.09.2021 (CEIDG) | aleo.com, owg.pl, podobne-firmy.pl, fixly.pl |
 | Mechanika pojazdowa | tak | nazwa firmy we wszystkich katalogach |
